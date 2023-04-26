@@ -2,10 +2,10 @@
 // Напишите программу, которая перетасует символы в S таким образом,
 // что символ c i-й позиции переместится на индекс index[i] в результирующей строке.
 // Пример: s = “cba”, index = [3,2,1] result “abc”
-package Java_learning.homework.leasson_2;
+package homework.leasson_2;
 
 import java.util.Scanner;
-public class task_1 {
+public class rekursiya {
         public static void main(String[] args) {
             Scanner sc = new Scanner(System.in);
             System.out.print("Введите строку =  ");

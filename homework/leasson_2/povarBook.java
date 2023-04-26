@@ -27,7 +27,7 @@ package homework.leasson_2;
 import java.util.Scanner;
 import java.util.List;
 import java.util.ArrayList;
-public class task_2 {
+public class povarBook {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Введите число строк в книге= ");

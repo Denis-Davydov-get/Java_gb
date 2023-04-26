@@ -7,7 +7,7 @@ package homework.leasson_3;
 import java.util.ArrayList;
 import java.util.List;
 
-public class task_2 {
+public class MinMaxAverage {
         static public void main(String[] args) {
                 List<Integer> list = createList(10, 4, 10);
                 System.out.println(list);

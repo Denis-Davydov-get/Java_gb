@@ -2,8 +2,8 @@
 // Пример:
 // jewels = “aB”, stones = “aaaAbbbB”
 // Результат в консоль ”a3B1”
-package Java_learning.homework.leasson_2;
-    public class task_0 {
+package homework.leasson_2;
+    public class lenCharInString {
     public static void main(String[] args) {
         String words = "aB";
         String stones = "aaaAbbbB";

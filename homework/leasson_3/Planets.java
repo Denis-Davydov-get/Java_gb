@@ -4,7 +4,7 @@ package homework.leasson_3;
 
 import java.util.*;
 
-public class task_3 {
+public class Planets {
     public static void main(String[] args) {
         List<String> namePlanets = new ArrayList<>();
         namePlanets.add("Плутон");

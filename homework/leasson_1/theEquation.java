@@ -1,7 +1,7 @@
 //* +Задано уравнение вида q + w = e, q, w, e >= 0. Некоторые цифры могут быть заменены знаком вопроса,
 // например, 2? + ?5 = 69. Требуется восстановить выражение до верного равенства.
 // Предложить хотя бы одно решение или сообщить, что его нет.
-package Java.homework;
+package homework.leasson_1;
 import java.util.Scanner;
 public class theEquation {
     public static void main(String[] args) {

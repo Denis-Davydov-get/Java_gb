@@ -1,5 +1,5 @@
 //Вводится массив (сначала количество элементов, потом сами элементы). Найдите сумму его элементов с чётными индексами и выведите её. А потом выведите числа, которые суммировались.
-package Java.homework;
+package homework.leasson_1;
 
 public class task_6 {
     public static void main(String[] args){

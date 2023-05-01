@@ -1,6 +1,6 @@
 //Вывести все простые числа от 1 до 1000
 //2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71, 73, 79, 83, 89, 97, 101, 103, 107
-package Java.homework;
+package homework.leasson_1;
 public class primeNumbers {
     public static void main(String[] args)
     {

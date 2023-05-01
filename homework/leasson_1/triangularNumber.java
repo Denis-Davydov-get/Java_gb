@@ -1,6 +1,6 @@
 //Вычислить n-ое треугольного число (сумма чисел от 1 до n), n! (произведение чисел от 1 до n)
 //1, 3, 6, 10, 15, 21, 28, 36, 45, 55, 66, 78, 91, 105... тругольные числа
-package Java.homework;
+package homework.leasson_1;
 import java.util.Scanner;
 public class triangularNumber {
     public static void main(String[] args) {

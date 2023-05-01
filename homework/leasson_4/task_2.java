@@ -15,6 +15,7 @@ public class task_2 {
         }
         System.out.println(list + " помещает элемент в конец очереди");
 
+
         System.out.println(dequeue(list)); // удалили первый элемент
         System.out.println(list + " возвращает первый элемент из очереди и удаляет его");
 

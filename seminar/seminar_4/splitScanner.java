@@ -7,7 +7,7 @@ import java.util.Scanner;
 // text~num
 // Нужно рассплитить строку по ~, сохранить text в связный список на позицию num.
 // Если введено print~num, выводит строку из позиции num в связном списке и удаляет её из списка.
-public class task_2 {
+public class splitScanner {
     public static void main(String[] args) {
         ex1();
     }

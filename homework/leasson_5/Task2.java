@@ -1,6 +1,6 @@
 package homework.leasson_5;
 //Написать программу, которая найдет и выведет повторяющиеся имена с количеством повторений. 
-//        Отсортировать по убыванию популярности. Для сортировки использовать TreeMap.
+//Отсортировать по убыванию популярности. Для сортировки использовать TreeMap.
 
 import java.util.*;
 
@@ -17,7 +17,7 @@ public class Task2 {
         }
 
         showNames(list);
-        getMap(list);
+
     }
 
     static Map<Integer,List<String>> getMap(List<String> list){

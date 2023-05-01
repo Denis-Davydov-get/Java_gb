@@ -1,4 +1,6 @@
 package homework.leasson_5;
+//Написать программу, которая найдет и выведет повторяющиеся имена с количеством повторений. 
+//        Отсортировать по убыванию популярности. Для сортировки использовать TreeMap.
 
 import java.util.*;
 
@@ -8,29 +10,14 @@ public class Task2 {
                 "Петр Лыков, Павел Чернов, Петр Чернышов, Мария Федорова, Марина Светлова, Мария Савина, " +
                 "Мария Рыкова, Марина Лугова, Анна Владимирова, Иван Мечников, Петр Петин, Иван Ежов";
         List<String> list = new ArrayList<>();
-        users.split(", ");
-        list.add(users);
-//        list.add("Ivan ������");
-//        list.add("Svetlana �������");
-//        list.add("Kristina ������");
-//        list.add("Anna ������");
-//        list.add("Anna �������");
-//        list.add("Ivan ����");
-//        list.add("Petr �����");
-//        list.add("Pavel ������");
-//        list.add("Petr ��������");
-//        list.add("Mary ��������");
-//        list.add("Marina ��������");
-//        list.add("Mary ������");
-//        list.add("Mary ������");
-//        list.add("Marina ������");
-//        list.add("Anna �����������");
-//        list.add("Ivan ��������");
-//        list.add("Petr �����");
-//        list.add("Ivan ����");
+        String[] usersArray = users.split(", ");
+        for (String i: usersArray) {
+            list.add(i);
+            System.out.println(i);
+        }
 
         showNames(list);
-
+        getMap(list);
     }
 
     static Map<Integer,List<String>> getMap(List<String> list){
